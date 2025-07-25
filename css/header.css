@@ -1,15 +1,13 @@
 .cabecalho {
     display: flex;
     align-items: center;
-    position: relative;
     box-shadow: 0.2px 0.2px 0.2px black;
 }
 
 .cabecalho__menu {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
     display: flex;
+    justify-content: center;
+    flex-grow: 1;
     gap: 2rem;
 }
 
@@ -23,6 +21,8 @@
 }
 
 .cabecalho__logo {
+    display: flex;
+    align-items: start;
     width: 8%;
     margin: 0.3em 0.5em;
 }
