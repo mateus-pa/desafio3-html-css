@@ -1,0 +1,34 @@
+.rodape {
+    background-color: var(--cor-secundaria);
+}
+
+.rodape__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1em;
+}
+
+.rodape__titulo {
+    color: var(--cor-principal);
+    font-size: 18px;
+}
+
+.rodape__item {
+    margin: 0 0.2em;
+}
+
+.rodape__lista__icones {
+    display: flex;
+    align-items: center;
+    margin: 0.5em 0.5em;
+}
+
+.rodape__texto__copyright {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    color: var(--cinza-copyright);
+    font-size: 14px;
+    font-weight: 300;
+}
