@@ -1,10 +1,13 @@
 .rodape {
     background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
 }
 
 .rodape__container {
     display: flex;
     justify-content: space-between;
+    flex-grow: 2;
     align-items: center;
     margin: 0 1em;
 }
