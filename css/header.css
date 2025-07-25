@@ -1,0 +1,28 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    position: relative;
+    box-shadow: 0.2px 0.2px 0.2px black;
+}
+
+.cabecalho__menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 2rem;
+}
+
+.cabecalho__menu__link {
+    text-decoration: none;
+    color: #0003c0;
+}
+
+.cabecalho__menu__link:hover {
+    color: var(--cor-hoover);
+}
+
+.cabecalho__logo {
+    width: 8%;
+    margin: 0.3em 0.5em;
+}
