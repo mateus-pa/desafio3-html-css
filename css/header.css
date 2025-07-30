@@ -1,7 +1,8 @@
 .cabecalho {
     display: flex;
     align-items: center;
-    box-shadow: 0.2px 0.2px 0.2px black;
+    box-shadow: 0.3px 0.3px 0.3px black;
+    margin-bottom: auto;
 }
 
 .cabecalho__menu {
@@ -23,6 +24,6 @@
 .cabecalho__logo {
     display: flex;
     align-items: start;
-    width: 8%;
+    width: 7%;
     margin: 0.3em 0.5em;
 }

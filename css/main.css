@@ -1,0 +1,15 @@
+.main__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__imagem {
+    width: 90%;
+    margin-top: 1em;
+}
+
+.main__imagem__descricao {
+    padding: 0.3em;
+}

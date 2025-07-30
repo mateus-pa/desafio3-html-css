@@ -2,6 +2,7 @@
     background-color: var(--cor-secundaria);
     display: flex;
     justify-content: center;
+    margin-top: auto;
 }
 
 .rodape__container {
@@ -14,17 +15,20 @@
 
 .rodape__titulo {
     color: var(--cor-principal);
-    font-size: 18px;
 }
 
 .rodape__item {
-    margin: 0 0.2em;
+    margin: 0 0.1em;
+}
+
+.rodape__item__icone {
+    width: 85%;
 }
 
 .rodape__lista__icones {
     display: flex;
     align-items: center;
-    margin: 0.5em 0.5em;
+    margin: 0.3em 0.2em;
 }
 
 .rodape__texto__copyright {
