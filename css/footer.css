@@ -21,6 +21,14 @@
     margin: 0 0.1em;
 }
 
+.rodape__item__botao {
+    transition: filter 0.3s ease;
+}
+
+.rodape__item__botao:hover {
+    filter: invert(1);
+}
+
 .rodape__item__icone {
     width: 85%;
 }

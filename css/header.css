@@ -1,7 +1,7 @@
 .cabecalho {
     display: flex;
     align-items: center;
-    box-shadow: 0.3px 0.3px 0.3px black;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     margin-bottom: auto;
 }
 
@@ -15,10 +15,12 @@
 .cabecalho__menu__link {
     text-decoration: none;
     color: #0003c0;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .cabecalho__menu__link:hover {
-    color: var(--cor-hoover);
+    color: var(--cor-hover);
 }
 
 .cabecalho__logo {

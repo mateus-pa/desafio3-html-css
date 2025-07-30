@@ -8,8 +8,24 @@
 .main__imagem {
     width: 90%;
     margin-top: 1em;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .main__imagem__descricao {
     padding: 0.3em;
+}
+
+.main__imagem__botao {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    transition: box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.main__imagem__botao:hover {
+    padding: 0.1em;
+    background: linear-gradient(135deg, var(--cor-secundaria), var(--cor-hover));
+    color: var(--cor-principal);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
 }
