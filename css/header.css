@@ -17,6 +17,7 @@
     color: #0003c0;
     font-size: 18px;
     font-weight: 700;
+    transition: color 0.3s ease;
 }
 
 .cabecalho__menu__link:hover {

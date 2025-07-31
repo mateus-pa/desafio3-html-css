@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url("header.css");
 @import url("footer.css");
-@import url("main.css");
+@import url("index.css");
+@import url("../lancamento/lancamento.css");
 
 :root {
     --font-principal: "Roboto", sans-serif;
@@ -9,6 +10,7 @@
     --cor-secundaria: #010380;
     --cor-hover: #5e61f0;
     --cinza-copyright: #ffffffe0;
+    --gradiente-azul: linear-gradient(135deg, #010380 0%, #2b2fc0 50%, #5e61f0 100%);
 }
 
 body {
@@ -16,6 +18,8 @@ body {
     font-size: 16px;
     font-weight: 400;
     background-color: var(--cor-principal);
+    margin: 0;
+    padding: 0;
 }
 
 .container {
