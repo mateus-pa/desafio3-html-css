@@ -1,3 +1,9 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .lancamento {
     display: flex;
     justify-content: center;
@@ -31,5 +37,16 @@
 }
 
 .lancamento__texto__paragrafo {
-        line-height: 1.5;
+    line-height: 1.5;
 }
+
+.lancamento__veiculos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 200px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+

@@ -7,8 +7,8 @@
 :root {
     --font-principal: "Roboto", sans-serif;
     --cor-principal: #FFFFFF;
-    --cor-secundaria: #010380;
-    --cor-hover: #5e61f0;
+    --cor-secundaria: #1b357e;
+    --cor-hover: #1351d8;
     --cinza-copyright: #ffffffe0;
     --gradiente-azul: linear-gradient(135deg, #010380 0%, #2b2fc0 50%, #5e61f0 100%);
 }
