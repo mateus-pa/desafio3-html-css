@@ -1,14 +1,16 @@
-.main__container {
+.main__home {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
 }
 
 .main__imagem {
-    width: 90%;
-    margin-top: 1em;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+    max-width: 70%;
+    height: auto;
+    margin-top: 4rem;
+    box-shadow: 2px 4px 4px rgb(58, 67, 70);
 }
 
 .main__imagem__descricao {
