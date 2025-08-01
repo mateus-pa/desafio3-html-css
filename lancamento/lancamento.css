@@ -1,18 +1,20 @@
-main {
+.lancamento {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding: 2em;
 }
 
-.lancamento {
+.lancamento__superior {
     display: flex;
     justify-content: center;
+    flex-wrap:wrap;
     gap: 50px;
+    margin: auto;
 }
 
 .lancamento__video {
     padding: 5px 5px 0 5px;
-    margin-left: 40px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     background: var(--gradiente-azul);
@@ -23,9 +25,8 @@ main {
     height: auto;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    margin-right: 40px;
-    padding: 15px;
+    gap: 1.5rem;
+    padding: 2rem;
     text-align: justify;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
@@ -40,11 +41,15 @@ main {
     line-height: 1.5;
 }
 
+.lancamento__inferior {
+    margin: auto;
+}
+
 .lancamento__veiculos {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 200px;
+    flex-wrap: wrap;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
