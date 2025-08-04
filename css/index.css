@@ -9,12 +9,12 @@
 .main__imagem {
     max-width: 70%;
     height: auto;
-    margin-top: 4rem;
+    margin-top: 3rem;
     box-shadow: 2px 4px 4px rgb(58, 67, 70);
 }
 
 .main__imagem__descricao {
-    padding: 0.3em;
+    padding: 0.3rem;
 }
 
 .main__imagem__botao {
@@ -24,7 +24,7 @@
 }
 
 .main__imagem__botao:hover {
-    padding: 0.1em;
+    padding: 0.1rem;
     background: linear-gradient(135deg, var(--cor-secundaria), var(--cor-hover));
     color: var(--cor-principal);
     transform: translateY(-2px);

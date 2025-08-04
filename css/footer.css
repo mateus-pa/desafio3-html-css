@@ -10,7 +10,7 @@
     justify-content: space-between;
     flex-grow: 2;
     align-items: center;
-    margin: 0 1em;
+    margin: 0 1rem;
 }
 
 .rodape__titulo {
@@ -18,7 +18,7 @@
 }
 
 .rodape__item {
-    margin: 0 0.1em;
+    margin: 0 0.1rem;
 }
 
 .rodape__item__botao {
@@ -36,7 +36,7 @@
 .rodape__lista__icones {
     display: flex;
     align-items: center;
-    margin: 0.3em 0.2em;
+    margin: 0.3rem 0.2rem;
 }
 
 .rodape__texto__copyright {
@@ -44,6 +44,6 @@
     justify-content: center;
     flex-grow: 1;
     color: var(--cinza-copyright);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 300;
 }
