@@ -3,6 +3,7 @@
 @import url("footer.css");
 @import url("index.css");
 @import url("../lancamento/lancamento.css");
+@import url("../contato/contato.css");
 
 :root {
     --font-principal: "Roboto", sans-serif;
@@ -11,6 +12,7 @@
     --cor-hover: #1351d8;
     --cinza-copyright: #ffffffe0;
     --gradiente-azul: linear-gradient(135deg, #010380 0%, #2b2fc0 50%, #5e61f0 100%);
+    --gradiente-hover: linear-gradient(135deg, #5e61f0 0%, #2b2fc0 50%, #010380 100%);
 }
 
 body {
