@@ -16,6 +16,9 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: var(--font-principal);
     font-size: 1rem;
     font-weight: 400;
@@ -27,10 +30,4 @@ body {
 main {
     flex-grow: 1;
     text-align: center;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
