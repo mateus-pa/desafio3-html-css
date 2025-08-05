@@ -46,6 +46,7 @@
 
 
 .menu__contato button {
+    cursor: pointer;
     background: var(--gradiente-azul);
     color: var(--cor-principal);
     border: 1.5px solid var(--cor-secundaria);
