@@ -27,35 +27,34 @@
             <div class="menu__imagem">
                 <img src="../img/xls 2.2 diesel.jpg" alt="Ford Ranger XLS 2.2 Diesel">
             </div>
-            <div class="menu__contato">
+            <form class="menu__contato">
                 <h2 class="menu__contato__titulo">Sobre você</h2>
                 <ul class="menu__contato__inputs">
                     <li>
-                        <input type="text" placeholder="NOME*">
+                        <input type="text" placeholder="Nome Completo">
                     </li>
                     <li>
-                        <input type="email" placeholder="E-MAIL*">
+                        <input type="email" placeholder="E-mail">
                     </li>
                     <li>
-                        <input type="text" placeholder="SOBRENOME*">
-                    </li>
-                    <li>
-                        <input type="tel" placeholder="TELEFONE*">
+                        <input type="tel" placeholder="Telefone">
                     </li>
                     <li>
                         <select required>
-                            <option value="" hidden>COMO DESEJA SER CONTATADO?</option>
+                            <option value="" disabled selected hidden>Tipo de Contato</option>
                             <option value="elogio">Elogio</option>
                             <option value="reclamacao">Reclamação</option>
                             <option value="solicitacao">Solicitação</option>
                         </select>
                     </li>
                     <li>
-                        <textarea placeholder="MENSAGEM*"></textarea>
+                        <textarea placeholder="Sua mensagem"></textarea>
                     </li>
                 </ul>
-                <button type="button">Enviar</button>
-            </div>
+                <button type="submit">
+                    <span>Enviar</span>
+                </button>
+            </form>
         </section>
     </main>
     <footer class="rodape">
