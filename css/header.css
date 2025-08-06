@@ -24,7 +24,7 @@
 }
 
 .cabecalho__logo {
-    height: 3rem;
+    height: 2.7rem;
     margin: 0.3rem 0.5rem;
 }
 
@@ -35,6 +35,7 @@
 
     .cabecalho__logo {
         margin-bottom: 1.5rem;
+        height: 2.2rem;
     }
 
     .cabecalho__menu {
