@@ -10,6 +10,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 2.5rem;
+    padding: 2rem;
     margin-bottom: 15rem;
 }
 
@@ -78,4 +79,11 @@ textarea:focus {
     background: var(--gradiente-hover);
     border: 1px solid var(--cor-secundaria);
     box-shadow: 2px 4px 4px rgb(27, 31, 32);
+}
+
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
 }
