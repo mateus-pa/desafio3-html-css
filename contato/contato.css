@@ -17,6 +17,12 @@
 .menu__imagem {
     flex: 1;
     min-width: 0;
+    transition: transform 0.3s ease;
+    padding: 0.3rem;
+}
+
+.menu__imagem:hover {
+    transform: scale(1.1);
 }
 
 .menu__imagem img{
